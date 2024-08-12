@@ -8,5 +8,9 @@ node('built-in')
 	{
     sh label: '', script: 'mvn package'
 	}
+	stage('Continuous Test_loans') 
+	{
+    sh label: '', script: 'echo "Hello from loans"'
+	}
 
 }
