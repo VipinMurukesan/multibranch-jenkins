@@ -8,9 +8,4 @@ node('built-in')
 	{
     sh label: '', script: 'mvn package'
 	}
-stage('Continuous Build_test') 
-	{
-    sh label: '', script: 'echo `pwd` is working directory'
-	}
-
 }
